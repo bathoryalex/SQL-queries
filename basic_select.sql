@@ -8,32 +8,32 @@ SELECT SUM(salary)
 FROM  employees;
 
 SELECT MIN(salary), MAX(salary) 
-FROM employees
+FROM employees;
 
 SELECT AVG(salary)
-FROM employees
+FROM employees;
 
 SELECT COUNT(first_name)
-FROM employees
+FROM employees;
 
 SELECT COUNT(DISTINCT job_id)
-FROM employees
+FROM employees;
 
 SELECT UPPER(first_name)
-FROM employees
+FROM employees;
 
 SELECT SUBSTR(first_name,1,3)
-FROM employees
+FROM employees;
 
 SELECT CONCAT(first_name, " ", last_name)
-FROM employees
+FROM employees;
 
 SELECT TRIM(first_name)
-FROM employees
+FROM employees;
 
 SELECT LENGTH(CONCAT(first_name, last_name))
-FROM employees
+FROM employees;
 
 SELECT * 
 FROM employees
-LIMIT 10
+LIMIT 10;
